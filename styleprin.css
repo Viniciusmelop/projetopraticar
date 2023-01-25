@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{  
+    margin: auto;
+    padding: 0px;
+}
+body{
+    background-color: black;
+
+}
+main{
+    min-width: auto;
+    max-width: auto;
+}
+img#fundo{
+    position: relative;
+    opacity: 0.2;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+img#logo1{
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    border-radius: 90px;
+    z-index: 3;
+    opacity: 0.1;
+    transition-duration: 0.7s;
+}
+img#logo2{
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    border-radius: 90px;
+    z-index: 3;
+    opacity: 0.1;
+    transition-duration: 0.7s;
+}
+img#logo1:hover{
+    opacity: 1;
+}
+img#logo2:hover{
+    opacity: 1;
+}
+h1#Du{
+    color: white;
+    position: absolute;
+    top: 378px;
+    left: 759px;
+    z-index: 2;
+    border-radius: 10px;
+}
+h1#Vi{
+    color: white;
+    position: absolute;
+    top: 378px;
+    left: 467px;
+    z-index: 2;
+}
+h1#titulo{
+    margin: auto;
+    position: absolute;
+    z-index: 5;
+    color: white;
+}

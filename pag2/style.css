@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black
+}
+header{
+    background-color: black;
+    box-shadow: 0px -6px 15px rgba(255, 255, 255, 0.39);
+    height: 150px;
+}
+header > img{
+    width: 150px;
+    height: 150px;
+    position: right;
+}
+header a{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    margin-top: 65px;
+    margin-left: 52px;
+}
+.menu{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    padding:0px;
+    margin-left: 55px;
+    opacity: 0.4;
+    border: 2px solid cadetblue;
+    transition-duration: 0.5s;
+    margin-top: 18px;
+}
+.menu:hover{
+    opacity: 1.0;
+}
+img#logo{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+}
+nav{
+    display: block;
+    margin-left: 310px;
+    margin-right: 310px;
+    border-radius: 35px;
+}
+form#pesquisa{
+    position: absolute;
+    z-index: 2;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+input{
+    height: 25px;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px white;
+}
+button{
+    
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.caixa{
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    margin-left: 439px;
+    border-radius: 25px;
+    opacity: 0.8;
+    margin-top: 55px;
+    padding: 10px;
+}
+div > h2{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+div#es{
+    display: none;
+}
+div#li{
+    display: none
+}
+div#ag{
+    display: none;
+}
+div#fe{
+    display: none;
+}
+div#ma{
+    display: none;
+}
+img#maa:active > div#ma{
+    display: block;
+}
